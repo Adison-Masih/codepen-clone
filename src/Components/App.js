@@ -58,6 +58,7 @@ h1{
       </div>
       <div className="pane bottom-pane">
         <iframe
+          sandbox="allow-modals"
           srcDoc={srcDoc}
           title="output"
           sandbox="allow-scripts"
